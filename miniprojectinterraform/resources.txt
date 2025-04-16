@@ -1,0 +1,9 @@
+Resources to create:
+VPC
+IGW
+Subnets
+Route Table
+Route
+Route Table Association
+Security Group
+EC2
