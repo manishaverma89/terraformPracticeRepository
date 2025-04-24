@@ -17,3 +17,4 @@ resource "aws_s3_object" "bucket-data" {
 output "value-of-random-id" {
   value = random_id.rand_id.hex
 }
+
