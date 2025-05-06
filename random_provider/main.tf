@@ -2,7 +2,7 @@ resource "random_id" "rand_id" {
     byte_length = 8 
 }
 
-
+#RAndom id for s3 bucketis created as "${random_id.rand_id.hex}"
 resource "aws_s3_bucket" "mytf-demobucket" {
   bucket = "mytf-demobucket-${random_id.rand_id.hex}"
 }
