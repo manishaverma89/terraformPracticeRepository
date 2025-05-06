@@ -1,0 +1,2 @@
+Hello World!
+This file is regarding creating AWS_S3 bucket using Terraform
